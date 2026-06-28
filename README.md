@@ -61,7 +61,7 @@ auth-dashboard/
 
 ```bash
 # Cloner le projet
-git clone https://github.com/ton-username/auth-dashboard.git
+git clone https://github.com/Dorovane/auth-dashboard.git
 cd auth-dashboard
 
 # Installer les dépendances

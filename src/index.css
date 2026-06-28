@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+
+  /* ── FONDS & SURFACES ──────────────────────────────────────────────────── */
+  --color-background:                  #0b1326; /* body */
+  --color-surface-container-lowest:    #060e20; /* fond le plus profond */
+  --color-surface-container-low:       #131b2e; /* card standard sidebar, panneau secondaire */
+  --color-surface-bright:              #31394d; /* hover card input, dropdown badge, chip, tag  tooltip, popover*/
+  --color-surface-tint:                #c0c1ff; /* reflet primaire sur surface active */
+
+  /* ── TEXTES ────────────────────────────────────────────────────────────── */
+  --color-on-background:               #dae2fd; /* body */
+  --color-inverse-on-surface:          #283044; /* fond sombre pour tooltip clair */
+  --color-on-surface-variant:          #c7c4d7; /* texte secondaire, placeholder, label */
+
+
+  /* ── BORDURES ──────────────────────────────────────────────────────────── */
+  --color-outline:                     #908fa0; /* input non focalisé */
+  --color-outline-variant:             #464554; /* séparateur entre sections */
+
+  /* ── PRIMAIRE — Indigo ─────────────────────────────────────────────────── */
+  --color-primary:                     #c0c1ff; /* lien actif, icône active */
+  --color-on-primary:                  #1000a9; /* texte sur fond primary 
+      bouton primary sur fond clair  texte sur bouton principal */
+  --color-primary-container:           #8083ff; /* fond bouton principal */
+  --color-on-primary-fixed-variant:    #2f2ebe; /* texte variante désactivé */
+
+  /* ── SECONDAIRE — Violet ───────────────────────────────────────────────── */
+  --color-secondary:                   #ddb7ff; /* accent décoratif, gradient texte sur badge secondary*/
+  --color-on-secondary:                #490080; /* texte sur fond secondary texte sur désactivé */
+  --color-secondary-container:         #6f00be; /* fond badge/notification */
+  --color-secondary-fixed:             #f0dbff; /* secondary désactivé */
+
+
+  /* ── TERTIAIRE — Teal ──────────────────────────────────────────────────── */
+  --color-tertiary:                    #4fdbc8; /* stat positive, succès texte sur désactivé fond badge succès/vérifié*/
+  --color-on-tertiary:                 #003731; /* texte sur fond tertiary texte variante*/
+
+
+  /* ── ÉTATS ─────────────────────────────────────────────────────────────── */
+  --color-error:                       #ffb4ab; /* texte erreur sous input */
+  --color-on-error:                    #690005; /* texte sur fond erreur */
+  --color-error-container:             #93000a; /* fond alerte erreur */
+  --color-on-error-container:          #ffdad6; /* texte dans alerte erreur */
+
+  /* ── TYPOGRAPHIE ───────────────────────────────────────────────────────── */
+  --font-geist:                        'Geist', sans-serif;  /* h1, h2, labels, badges, code */
+
+
+}
+
+/* ── STYLES GLOBAUX ──────────────────────────────────────────────────────── */
+body {
+  background-color: var(--color-background);
+  color: var(--color-on-background);
+  font-family: var(--font-inter);
+}
